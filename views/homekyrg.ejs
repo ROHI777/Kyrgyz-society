@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Kyrgyz Sociaety in UK</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <%-include('includes/header') %>
+    <div class="hero">
+      <div class="overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="/img/19755.mp4" type="video/mp4" />
+      </video>
+
+      <!-- The header content -->
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Бириктирүү. Колдоо көрсөтүү. Интеграциялоо</h1>
+            <p class="lead mb-0">
+              Улуу Британиядагы кыргыз коомчулугуна кош келиңиз!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--cards-->
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-6 shadow">
+          <img
+            src="/img/FB_IMG_1642854914907.jpg"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-5 mx-auto my-auto text-center">
+          <div class="card-body mb-4">
+            <h2 class="card-title text-primary">Who we are</h2>
+            <p class="card-text">
+              We are the Kyrgyz Community living in the United Kingdom. We are
+              driven by the desire to preserve our unique identity, culture and
+              language while integrating in UK's diverse society.
+            </p>
+            <a href="about-us" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-5 mx-auto my-auto text-center">
+          <div class="card-body mb-4">
+            <h2 class="card-title text-primary">Our Mission</h2>
+            <p class="card-text">
+              Our mission is to introduce our langauge and culture to our
+              children growing up in UK through organizing celebrations of
+              Kyrgyz holidays and running language schools, other cultural and
+              educational activities and support our campatriots to become a
+              valuble member of larger UK society.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 shadow">
+          <img
+            src="/img/IMG_20220615_114604_234.JPG"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-card p-4">
+      <div class="card-group mx- auto">
+        <div class="card ml-6">
+          <img
+            src="/img/FB_IMG_1642854914907.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body details p-4">
+            <h4 class="card-title">Events</h4>
+            <p>
+              We run wide range of events. See all upcoming and past events. To
+              stay up to date please sign up to our newsletter
+            </p>
+            <a href="#" class="btn  btn-primary">Go to Events </a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="/img/FB_IMG_1643712121254.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body details">
+            <h4 class="card-title">Courses</h4>
+            <p class="">
+              We run Kyrgyz language courses for our children born in UK. Our
+              children teach our compatriots English language to help them
+              overcome language barriers and integrate into UK.
+            </p>
+            <a href="#" class=" btn btn-primary">Learn more</a>
+          </div>
+        </div>
+        <div class="card mr-6">
+          <img
+            src="/img/FB_IMG_1643711985169.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body details">
+            <h4 class="card-title">Workshops</h4>
+            <p>
+              We are nomad people. To keep our uniqness and to pass traditions
+              to younger generations we run different workshops.
+            </p>
+            <a href="#" class="btn mt-auto btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- subscribe  -->
+    <div class="container bg-primary p-4 rounded-pill text-white d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+          <h5>To stay up to date subscribe to our newsletter</h5>
+          <p>Receive the latest news and information via email</p>
+        </div>
+        <div class="col-md-2">
+          <a href="/subsform" class="btn btn-light px-4">Subscribe</a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
